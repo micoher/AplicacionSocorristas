@@ -1,0 +1,43 @@
+<div>
+    <div id="cajasuperior">
+        <p class="textoGrande"><b>Selecciona la playa:</b></p>
+        <select class="textoPequeno" id="select" data-dojo-attach-point="playas">
+            <option value="-1">Seleccionar...</option>
+            <option value="3">Praia de Nosa Señora</option>
+            <option value="2">Praia dos Bolos</option>
+            <option value="1">Praia dos Viños</option>
+            <option value="4">Praia de Rodas</option>
+            <option value="5">Praia de Areíña</option>
+            <option value="6">Praia de Muxieiro</option>
+            <option value="9">Playa de Figueiras</option>
+            <option value="8">Playa de la Cantareira</option>
+            <option value="7">Playa de la Cantareira 2</option>       
+        </select>
+        
+    </div>
+    <div id="cajaBotones">
+        <p class="textoGrande"><b>Selecciona la bandera que tiene hoy:</b></p>
+
+        <div id="cajitaBotones">
+            <div id="nombres" class="textoPequeno">
+                <span class="espaciostexto"><b>Verde</b></span>
+                <span class="espaciostexto"><b>Amarilla</b></span>
+                <span class="espaciostexto"><b>Roja</b></span>
+                <span class="espaciostexto"><b>Peligro</b></span>
+            </div>
+            <div id="banderas">
+                <button id="botonVerde" class="espaciosBotones" data-dojo-attach-point="verde" data-dojo-attach-event="onclick:banderaVerde" style= "background-image: url(widgets/Playas/images/verde.png);"></button>
+
+                <button id="botonAmarillo" class="espaciosBotones" data-dojo-attach-point="amarilla" data-dojo-attach-event="onclick:banderaAmarilla" style= "background-image: url(widgets/Playas/images/amarilla.png);"></button>
+
+                <button id="botonRojo" class="espaciosBotones" data-dojo-attach-point="roja" data-dojo-attach-event="onclick:banderaRoja" style= "background-image: url(widgets/Playas/images/roja.png);"></button>
+
+                <button id="botonPeligro" class="espaciosBotones" data-dojo-attach-point="peligro" data-dojo-attach-event="onclick:banderaPeligro" style= "background-image: url(widgets/Playas/images/peligro.png);"></button>
+            </div>
+        </div>    
+    </div>
+
+
+
+
+</div>
